@@ -45,6 +45,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     - ng generate component ./components/pokemon
 
 4. Routing
+    - 
+
 5. Services & Fetching
 6. Interfaces
 7. Passing data - Parent to child & Display fetched data
