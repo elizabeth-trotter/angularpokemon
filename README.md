@@ -45,10 +45,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     - ng generate component ./components/pokemon
 
 4. Routing
-    - 
+    - app.routes.ts
 
 5. Services & Fetching
+    - 
+
 6. Interfaces
+    - 
+
 7. Passing data - Parent to child & Display fetched data
+    - 
+
 8. Pipes
+    - formatting displayed data
+
 9. User input
+
+10. Two-way binding
+    - passing data from parent to child

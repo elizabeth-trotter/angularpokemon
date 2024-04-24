@@ -1,0 +1,17 @@
+<h1>{{ pokemonDisplay?.name | uppercase }}</h1> 
+<!-- {{ }} interpolation binding -->
+<!-- Piping | -->
+
+<img [src]="pokemonDisplay?.sprites?.front_default" alt="pokemon">
+<!-- [] tells Angular this is the value of a property -->
+
+<ul> 
+    @for(ability of pokemonDisplay?.abilities; track ability.ability.name){
+        <li>{{ ability.ability.name }}</li>
+    }
+
+    <!-- <li *ngFor="let ability of pokemonDisplay?.abilities; track ability.ability.name">{{ ability.ability.name }}</li> -->
+</ul>
+<!-- two different ways to do a for loop -->
+
+<button (click)="giveHint()">give hint</button>
